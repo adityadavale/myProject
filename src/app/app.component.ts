@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'myProject';
+
+  captureChildEvents = function (eventData) {
+    console.log(`----------------------event data ------------- \n ${eventData}`)
+  }
 }
